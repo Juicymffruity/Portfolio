@@ -1,0 +1,122 @@
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header nav a {
+        font-size: 14px;
+        margin-right: 4%;
+    }
+
+    #twitter {
+        font-size: 18px;
+    }
+
+    #yt {
+        font-size: 18px;
+    }
+
+    #insta {
+        font-size: 18px;
+    }
+
+    .right-links {
+        transform: translateX(-10%);
+    }
+
+    .journey {
+        transform: translateX(-20%);
+    }
+
+    .box2 h2 {
+        font-size: 22px;
+    }
+
+    .info {
+        transform: translateX(-5%);
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #message {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .box1 h2 {
+        text-align: center;
+    }
+
+    .box1 p {
+        text-align: center;
+    }
+
+    .box3 {
+        transform: translateX(80%);
+    }
+
+    #submitbtn {
+        transform: translateX(150%);
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer p {
+        font-size: 13px;
+        margin-left: -50%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .socials {
+        transform: translateX(-5%);
+    }
+
+    .header nav a {
+        font-size: 12px;
+    }
+
+    .container1 {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .box1 h2 {
+        margin-left: 20%;
+    }
+
+    .box2 h2 {
+        margin-left: 13%;
+    }
+
+    #text1 {
+        width: 50%;
+        margin-left: 35%;
+    }
+
+    .container2 {
+        transform: translateX(-5%);
+    }
+
+    .box3 {
+        margin-left: 3%;
+    }
+
+    .box3 #submitbtn {
+        transform: translateX(90%);
+    }
+
+    body {
+        background: url(Image/BG1.png) no-repeat 250px 100%,
+            url(Image/BG1.png) no-repeat -300px 10px;
+
+        background-color: #f8f7ea;
+        background-size: auto, auto;
+    }
+}

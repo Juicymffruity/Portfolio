@@ -1,0 +1,147 @@
+button:hover {
+    background-color: rgb(42, 41, 41);
+    color:  #F8F7EA;
+    border: solid  rgb(42, 41, 41) 3px;
+} /* both buttons */
+
+.right-links a:hover {
+    color: #f9f6dc;
+    cursor: pointer;
+}
+
+#child1:hover {
+    background-color: #faf9e9;
+} 
+
+#child2:hover {
+    background-color: #faf9e9;
+} 
+
+#child3:hover {
+    background-color: #faf9e9;
+} 
+
+#child4:hover {
+    background-color: #faf9e9;
+}
+
+#child5:hover {
+    background-color: #faf9e9;
+} 
+
+#child6:hover {
+    background-color: #faf9e9;
+}
+
+.transition-element {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.transition-element.fade-in {
+    opacity: 1;
+}
+
+#arrow-up:hover {
+    background-color: #535353;
+}
+
+#insta:hover {
+    cursor: pointer;
+}
+
+#yt:hover {
+    cursor: pointer;
+}
+
+#twitter:hover {
+    cursor: pointer;
+}
+
+.hover::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #fbf9e6;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}   
+
+.btn::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #fbf9e6;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.btn:hover::after {
+    width: 100%;
+}
+
+.hover:hover::after {
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: -80px;
+    width: 98%;
+    height: 5%;
+    z-index: 1000;
+    transition: top 8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sticky.active {
+    top: 0; 
+}
+
+.header + * {
+    margin-top: 80px;
+}
+
+#louis:hover {
+    cursor: pointer;
+}
+
+.photo img {
+    width: 200px; 
+    transition: transform 3s ease; 
+}
+
+.photo img:hover {
+    transform: scale(1.1); 
+}
+
+#button2 #form_button:hover {
+    background-color: rgb(239, 239, 239);
+}
+
+@keyframes fallingLeaves {
+    0% {
+        transform: translateY(-100vh) rotate(0deg) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg) scale(0.5);
+        opacity: 1;
+    }
+}
+
+.leaf {
+    z-index: 1000;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('Image/leaf.png');
+    background-size: contain;
+    animation: fallingLeaves 10s linear infinite; 
+    opacity: 5; 
+}
+
+

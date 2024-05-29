@@ -1,0 +1,97 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header nav a {
+        margin-right: 1px;
+        font-size: 14px;
+        margin-right: 4%;
+    }
+
+    #twitter {
+        font-size: 18px;
+    }
+
+    #yt {
+        font-size: 18px;
+    }
+
+    #insta {
+        font-size: 18px;
+    }
+
+    .a #name {
+        font-size: 50px;
+    }
+
+    .info {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    body {
+        background: url(Image/BG1.png) no-repeat -130px 10px,
+            url(Image/Boy.png) no-repeat 120% 10%,
+            url(Image/BG1.png) no-repeat 100% 29%;
+
+        background-size: 50%, 65%, 50%;
+        background-color: #f8f7ea;
+    }
+} /* for tablets */
+
+@media only screen and (max-width: 580px) {
+    body {
+        background: url(Image/BG1.png) no-repeat -50px 30px,
+            url(Image/BG1.png) no-repeat 110% 17%;
+
+        background-size: 50%, 65%, 50%;
+
+        background-color: #f8f7ea;
+    }
+
+    .header h1 {
+        font-size: 13px;
+    }
+
+    .header nav a {
+        font-size: 10px;
+    }
+
+    .right-links {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #twitter {
+        font-size: 10px;
+    }
+
+    #yt {
+        font-size: 10px;
+    }
+
+    #insta {
+        font-size: 10px;
+    }
+
+    .a #name {
+        font-size: 45px;
+        width: 10px;
+    }
+
+    .info {
+        width: auto;
+        font-size: 17px;
+        text-align: left;
+    }
+
+    button {
+        font-size: 10px;
+    }
+}

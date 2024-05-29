@@ -1,0 +1,159 @@
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    body {
+        overflow-x: hidden;
+    }
+
+    .modal-content {
+        max-width: 50%;
+        margin: 10% auto; 
+    }
+
+    .modal {
+        overflow-x: hidden;
+    }
+
+    .post-image,
+    .post-details {
+        width: 100%; 
+        max-width: 90%; 
+        text-align: center; 
+        padding-left: 0; 
+        transform: translateY(0); 
+        margin-bottom: 20px; 
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+    .post-image img {
+        width: 80%; 
+    }
+    
+    .post-container {
+        display: flex;
+        flex-direction: column;
+        width: fit-content; 
+        max-width: 90%;
+    }
+
+    .navigation-buttons {
+        position: static;
+        display: flex;
+        bottom: -100vh;
+        transform: translateX(40vh);
+    }
+
+    .uploaded-photos table, 
+    .uploaded-photos tr, 
+    .uploaded-photos td {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .uploaded-photos td {
+        margin-bottom: 3vh;
+    }
+    
+    .uploaded-photos td {
+        margin-left: 0;
+        margin-right: 0;
+        transform: none;
+    }
+    
+    .spacer-row {
+        display: none;
+    }
+
+    .uploaded-photos td:nth-child(1) {
+        transform: translateX(0);
+    }
+    
+    .uploaded-photos td:nth-child(3) {
+        transform: translateX(0);
+    }   
+}
+
+@media only screen and (max-width: 580px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header nav a {
+        margin-right: 1px;
+        font-size: 14px;
+        margin-right: 4%;
+    }
+
+    #louis {
+        margin-top: 5%;
+    }
+
+    #twitter, #yt, #insta {
+        font-size: 17px;
+    }
+
+    #word1, #word2 {
+        font-size: 35px;
+    }
+
+    .project-container p {
+        font-size: 17.6px;
+        text-align: justify;
+    }
+
+    .footer p {
+        font-size: 13px;
+        margin-left: -50%;
+    }
+
+    .modal-content {
+        max-width: 80%;
+        margin: 20% auto; 
+    }
+
+    .modal {
+        overflow: hidden;
+    }
+
+    .post-image,
+    .post-details {
+        width: 100%; 
+        max-width: 90%; 
+        text-align: center; 
+        padding-left: 0; 
+        transform: translateY(0); 
+        margin-bottom: 20px; 
+        margin-left: 40px;
+        font-size: 15px;
+    }
+
+    .post-image img {
+        width: 80%; 
+    }
+    
+    .post-container {
+        display: flex;
+        flex-direction: column;
+        width: fit-content; 
+        max-width: 90%;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10%;
+    }
+
+    .navigation-buttons {
+        position: static;
+        display: flex;
+        bottom: -100vh;
+        transform: translate(22vh, -10vh);
+    }
+}

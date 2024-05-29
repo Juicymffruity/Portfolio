@@ -1,0 +1,380 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .aboutme h1 {
+        width: 25%;
+        height: 1%;
+        font-size: 20px;
+    }
+
+    .aboutme p {
+        font-size: 16px;
+    }
+
+    .aboutme #education {
+        font-size: 18px;
+        width: 22%;
+    }
+
+    .aboutme #hobbies {
+        font-size: 18px;
+        width: 18%;
+    }
+
+    .aboutme span {
+        font-size: 16px;
+    }
+
+    .photo {
+        height: 425px;
+    }
+
+    #boy2 {
+        margin-top: 0%;
+        margin-left: -50%;
+        width: 200%;
+        height: 100%;
+        max-height: 100%;
+        max-width: 200%;
+    }
+    
+    .box4 h1 {
+        width: 20%;
+    } 
+
+    #child1 {
+        align-items: center;
+        height: 230px;   
+    }
+
+    #child2 {
+        align-items: center;
+        height: 230px;   
+    }
+
+    #child3 {
+        align-items: center;
+        height: 230px;   
+    }
+
+    #child4 {
+        align-items: center;
+        height: 230px;   
+    }
+
+    #child5 {
+        align-items: center;
+        height: 230px;   
+    }
+
+    #child6 {
+        align-items: center;
+        height: 230px;   
+    }
+
+    #child1 p {
+        margin-left: 7%;
+        text-align: left;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    #child1 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child2 p {
+        margin-left: 7%;
+        text-align: left;
+        font-size: 15px;
+        line-height: 1;
+    }
+
+    #child2 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child3 p {
+        margin-left: 7%;
+        line-height: 1;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child3 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child4 p {
+        margin-left: 7%;
+        line-height: 1;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child4 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child5 p {
+        margin-left: 7%;
+        line-height: 1;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child5 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child6 p {
+        margin-left: 7%;
+        line-height: 1;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child6 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .aboutme {
+        width: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .aboutme h1 {
+        width: 24%;
+        height: 1%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .aboutme p {
+        font-size: 13px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .aboutme #education {
+        font-size: 15px;
+        height: 2%;
+        width: 20%;
+    }
+
+    .aboutme #hobbies {
+        font-size: 18px;
+        width: 18%;
+        height: 2%;
+    }
+
+    .aboutme span {
+        line-height: 0;
+        font-size: 13px;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .box4 {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box4 h1 {
+        width: auto;
+        font-size: 25px;
+    }
+
+    .box2 {
+        margin-top: 2%;
+        flex-direction: column; 
+    }
+
+    .box3 {
+        flex-direction: column; 
+    }
+
+    #child1 {
+        align-items: center;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        height: auto;
+        width: auto;
+    }
+
+    #child1 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child1 p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    #child1 i {
+        margin-top: 7%;
+    }
+
+    #child2 {
+        align-items: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        height: auto;
+        width: auto;   
+    }
+
+    #child2 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child2 p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    #child2 i {
+        margin-top: 7%;
+    }
+
+    #child3 {
+        align-items: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        height: auto;
+        width: auto;   
+    }
+
+    #child3 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child3 p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    #child3 i {
+        margin-top: 7%;
+    }
+
+    #child4 {
+        align-items: center;
+        margin-right: 10%;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        height: auto;
+        width: auto;   
+    }
+
+    #child4 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child4 p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    #child4 i {
+        margin-top: 7%;
+    }
+
+    #child5 {
+        align-items: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        height: auto;
+        width: auto;   
+    }
+
+    #child5 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child5 p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    #child5 i {
+        margin-top: 7%;
+    }
+
+    #child6 {
+        align-items: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        margin-top: 1%;
+        height: auto;
+        width: auto;   
+    }
+
+    #child6 h1 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #child6 p {
+        line-height: 1;
+        font-size: 15px;
+    }
+
+    #child6 i {
+        margin-top: 7%;
+    }
+
+    .fa-sharp.fa-solid.fa-computer {
+        font-size: 20px;
+    }
+
+    .fa-solid.fa-video {
+        font-size: 20px;
+    }
+
+    .fa-solid.fa-pen-nib {
+        font-size: 20px;
+    }
+
+    .fa-solid.fa-clapperboard {
+        font-size: 20px;
+    }
+
+    .fa-solid.fa-camera {
+        font-size: 20px;
+    }
+
+    .fa-solid.fa-pen {
+        font-size: 20px;
+    }
+}
+

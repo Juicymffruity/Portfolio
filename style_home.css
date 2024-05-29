@@ -1,0 +1,168 @@
+body {
+    background-color: #F8F7EA;
+    margin: 0;
+    justify-content: center;
+}
+
+.header {
+    background-color: black;
+    color:  white;
+    padding-left: 10px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+} /*header */
+
+.header h1 {
+    font-size: 25px;
+    margin-left: 2%;
+    font-family: sans-serif;
+} /* Louis */
+
+a {
+    font-family: sans-serif;
+    font-size: 15px;
+    color:  white;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    transition: color 0.3 ease;
+    z-index: 1;
+    cursor: pointer;
+    /* border: solid red 1px; */
+} /*Links */
+
+.socials {
+    color: white;
+    width: 30%;
+    height: 20px;
+    margin-left:-15%;
+    margin-top: -2px;
+    cursor: pointer;
+} /* social media icons */
+
+.right-links {
+    width: 300px;
+    margin-left: 5%;
+}
+
+nav {
+    display: flex;
+}
+
+#name {
+    justify-content: center;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: auto;
+} /* hello, im louis */
+
+p {
+    font-family: sans-serif;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-left: 10%;
+    width: 40%;
+    font-size: 20px;
+    text-align: justify;
+} /* i am ui/ux */
+
+#img1 {
+    top: 0;
+    right: 0;
+    left: 50%;
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 20px;
+    width: 30%;
+    z-index: -1;
+} /*boy container */
+
+#img1 img  {
+    width: 160%;
+    height: auto;
+} /* boy image */
+
+#img2 img {
+    position: absolute;
+    margin-top: -10%;
+    z-index: -2;
+    margin-left: 66%;
+}/* img bg */
+
+body {
+    background: 
+    url(Image/BG1.png) no-repeat -130px 10px,
+
+    url(Image/Boy.png) no-repeat 95% 5%,
+
+    url(Image/BG1.png) no-repeat 100% 12%; 
+
+    background-color: #F8F7EA;
+    background-size: auto, 45%;
+} /* bg image */
+
+button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: solid black 3px;
+    border-radius: 10px;
+    margin-right: 1%;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+} /* both buttons */
+
+.buttons {
+    margin-left: 10%;
+    margin-top: 1%;
+} /*button */
+
+#arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #424242;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    transform: rotate(90deg);
+    z-index: 1000;
+} /* arrow */
+
+#arrow-up.show {
+    opacity: 1;
+} /* arrow display*/
+
+.hidden {
+    display: none;
+} /* arrow visibility*/
+
+.fa-brands.fa-instagram {
+    font-size: 20px;
+    margin-bottom: 50%;
+    margin-right: 15%;
+} /* ig icon*/
+
+.fa-brands.fa-youtube {
+    font-size: 20px;
+    margin-bottom: 50%;
+    margin-right: 15%;
+} /* yt icon*/
+
+.fa-brands.fa-twitter {
+    font-size: 20px;
+} /* twitter icon*/

@@ -1,0 +1,249 @@
+#aboutme {
+    padding-top: 5%;
+    color: white;
+    font-family:  sans-serif;
+    text-align: center;
+} /* about me */
+
+#about {
+    width: auto;
+}
+
+
+.box1 {
+    background-color: black;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    height: auto;
+} /* about me container */
+
+.box2 {
+    justify-content: space-between;
+    display: flex;
+} /*skill-set container */
+
+.skill {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 5%;		
+}
+
+#child1 {
+    color: black;
+    background-color: #F8F7EA;
+    width: 25%;
+    height: 300px;
+    margin-left: 10%;
+    border-radius: 10px;
+} /*box graphic designer */
+
+#child1 p {
+    font-size: 17px;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: -1%;
+} 
+
+#child2 {
+    background-color: #F8F7EA;
+    width: 25%;
+    height: 300px;
+    border-radius: 10px;
+} /*box video editing */
+
+#child2 p {
+    font-size: 17px;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+#child3 {
+    background-color: #F8F7EA;
+    width: 25%;
+    height: 300px;
+    margin-right: 10%;
+    border-radius: 10px;
+} /* box web design */
+
+#child3 p {
+    font-size: 17px;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.box3 {
+    justify-content: space-between;
+    display: flex;
+}
+
+#child4 {
+    background-color: #F8F7EA;
+    width: 25%;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+#child4 p {
+    font-size: 17px;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+#child5 {
+    background-color: #F8F7EA;
+    width: 25%;
+    height: 300px;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+#child5 p {
+    font-size: 17px;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+#child6 {
+    background-color: #F8F7EA;
+    width: 25%;
+    height: 300px;
+    margin-right: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+#child6 p {
+    font-size: 17px;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+
+.fa-sharp.fa-solid.fa-computer {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+} /*computer icon */
+
+.fa-solid.fa-video {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+} /*video icon */
+
+.fa-solid.fa-pen-nib {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+} /*pen icon */
+
+.fa-solid.fa-clapperboard {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+} /* clapperboard */
+
+.fa-solid.fa-camera {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+} /* photograph icon */
+
+.fa-solid.fa-pen {
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+} /* pen icon */
+
+.box4 {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 10%;
+} /* services &skill-set container*/
+
+.box4 span {
+    font-family: sans-serif;
+    padding-bottom: -1px;
+} /* Services */
+
+.box4 h1 {
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+} /* skill-set */
+
+.photo {
+    position: relative;
+    width: 25%;
+    margin-left: 10%;
+    margin-bottom: 10%;;
+    height: 460px;
+    background-color: #F8F7EA;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#boy2 {
+    margin-left: -10%;
+    width: 125%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 130%;
+}
+
+.page2 {
+    display: flex;
+    height: 20%;
+}
+
+.aboutme {
+    position: absolute;
+    width: 50%;
+    margin-left: 40%;
+    transform: translateY(6%);
+}
+
+.aboutme h1{
+    margin-top: 1%;
+    margin-left: 0 !important;
+    font-family:sans-serif ;
+    color: white;
+    height: 35px;
+    width: 25%;
+    margin-left: 10%;
+}
+
+.aboutme p {
+    font-size: 18px;
+    width: 110%;
+    line-height: 1.2;
+    margin-left: 0;
+    font-family:sans-serif ;
+    color: white;
+}
+
+.aboutme span {
+    font-size: 18px;
+    font-family:sans-serif ;
+    color: white;
+}
+
+.aboutme #education {
+    height: 26px;
+    font-size: 23px;
+    width: 19%;
+}
+
+.aboutme #hobbies {
+    height: 26px;
+    font-size: 23px;
+    width: 15%;
+}
